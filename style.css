@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  background: #0a3cff;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Hero */
+.hero {
+  padding: 40px 20px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.hero h2 {
+  margin-bottom: 15px;
+  color: #0a3cff;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: #0a3cff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Features */
+.features {
+  padding: 40px 20px;
+  background: #eef1ff;
+  text-align: center;
+}
+
+.feature-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.feature {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 6px;
+  width: 200px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* About, Privacy, Contact */
+.about, .privacy, .contact {
+  padding: 40px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.about h2,
+.privacy h2,
+.contact h2 {
+  color: #0a3cff;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+  background: #0a3cff;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
